@@ -1,0 +1,16 @@
+[project]
+name = "synthesis_yieldguard_opentrack"
+version = "0.1.0"
+description = "A yield-only autonomous public-goods swarm that discovers funding gaps, spends only staking yield through bounded delegations, stores impact proofs, and updates agent receipts."
+readme = "README.md"
+requires-python = ">=3.13"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ty.terminal]
+error-on-warning = true
+
+[tool.ty.environment]
+python-version = "3.13"
