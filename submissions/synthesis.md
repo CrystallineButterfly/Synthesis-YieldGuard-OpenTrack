@@ -1,6 +1,6 @@
 # YieldGuard Autonomous Public Goods Swarm
 
-- **Repo:** https://github.com/CrystallineButterfly/Synthesis-YieldGuard-OpenTrack
+- **Repo:** TODO_GITHUB_URL/Synthesis-YieldGuard-OpenTrack
 - **Primary track:** Open Track
 - **Overlap targets:** Lido stETH Treasury, Uniswap Agentic Finance, Venice Private Agents, Octant, Filecoin, Celo, ERC-8004 Receipts, Bankr Gateway, MetaMask Delegations, PayWithLocus, ENS, Olas, Slice
 - **Primary contract:** YieldGuardTreasury
@@ -18,10 +18,10 @@ A yield-only autonomous public-goods swarm that discovers funding gaps, spends o
   "status": "verified",
   "project_name": "YieldGuard Autonomous Public Goods Swarm",
   "track": "Open Track",
-  "plan_id": "0x44789a3270c6cbe0e9e3ce311abf659dd1ba815e9d01f675486eca3034935b6a",
-  "simulation_hash": "0x1df96b14054853dcf15f2fb31423f4216e30f0f51dbca71e807f9035650a0f21",
+  "plan_id": "0x3108584c1983e030f79ae19014bc4799c53f1d50ddcd8938280c1901f6de1be2",
+  "simulation_hash": "0x4387932699b7722f9501598f98062710f3bc0bad3d3fcefdca57f34bede1ac44",
   "execution_status": "awaiting_credentials",
   "tx_ids": [],
-  "created_at": "2026-03-18T21:44:22+00:00"
+  "created_at": "2026-03-18T23:01:39+00:00"
 }
 ```
