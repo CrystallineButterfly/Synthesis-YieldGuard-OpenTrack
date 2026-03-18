@@ -1,6 +1,6 @@
 # YieldGuard Autonomous Public Goods Swarm
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-YieldGuard-OpenTrack
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-YieldGuard-OpenTrack
 - **Primary track:** Open Track
 - **Overlap targets:** Lido stETH Treasury, Uniswap Agentic Finance, Venice Private Agents, Octant, Filecoin, Celo, ERC-8004 Receipts, Bankr Gateway, MetaMask Delegations, PayWithLocus, ENS, Olas, Slice
 - **Primary contract:** YieldGuardTreasury
