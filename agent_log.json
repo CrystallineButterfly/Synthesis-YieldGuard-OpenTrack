@@ -28,5 +28,10 @@
     "stage": "verify",
     "actor": "coordinator",
     "message": "Repo is ready for credentials, wallet wiring, and real Tx capture."
+  },
+  {
+    "stage": "discover",
+    "actor": "run_agent",
+    "message": "targets=['Lido stETH Treasury', 'Uniswap Agentic Finance', 'Venice Private Agents']"
   }
 ]
