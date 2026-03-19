@@ -15,12 +15,12 @@ def utc_timestamp() -> str:
 def read_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
-    return json.loads(path.read_text(encoding='utf-8'))
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
 
 
 def append_event(
@@ -33,11 +33,11 @@ def append_event(
     payload = read_json(path, default=[])
     payload.append(
         {
-            'timestamp': utc_timestamp(),
-            'stage': stage,
-            'actor': actor,
-            'message': message,
-            'details': details or {},
+            "timestamp": utc_timestamp(),
+            "stage": stage,
+            "actor": actor,
+            "message": message,
+            "details": details or {},
         }
     )
     write_json(path, payload)

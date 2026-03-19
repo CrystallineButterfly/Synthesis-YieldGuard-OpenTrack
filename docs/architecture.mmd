@@ -1,13 +1,19 @@
 flowchart TD
-    Signals[Discover signals]
-    Planner[Agent runtime]
-    DryRun[Dry-run artifact]
-    Contract[YieldGuardTreasury policy contract]
-    Verify[Verify and render submission]
-    Signals --> Planner --> DryRun --> Contract --> Verify
-    Contract --> lido[Lido]
-    Contract --> uniswap[Uniswap]
-    Contract --> venice[Venice]
-    Contract --> octant[Octant]
-    Contract --> filecoin[Filecoin]
-    Contract --> celo[Celo]
+    signals[Discovery signals] --> planner[AgentRuntime.plan]
+    planner --> dryrun[Dry-run artifact]
+    dryrun --> treasury[YieldGuardTreasury]
+    dryrun --> uniswap[Uniswap quote API]
+    dryrun --> venice[Venice private analysis]
+    dryrun --> octant[Octant repo artifact]
+    dryrun --> filecoin[Filecoin proof bundle]
+    dryrun --> locus[Locus payment intent]
+    dryrun --> olas[Olas marketplace bundle]
+    dryrun --> slice[SliceImpactHook deploy manifest]
+    treasury --> verify[Verification artifact]
+    uniswap --> verify
+    venice --> verify
+    octant --> verify
+    filecoin --> verify
+    locus --> verify
+    olas --> verify
+    slice --> verify

@@ -7,5 +7,1443 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:35+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:35+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:35+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc60c152ba2724726adb030827448fc8be3cf9ad5eb73745d40a5a41345176b68"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:36+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:36+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4",
+      "simulation_hash": "0xc60c152ba2724726adb030827448fc8be3cf9ad5eb73745d40a5a41345176b68",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4.json",
+        "artifacts/filecoin/0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4.json",
+        "artifacts/slice/0x26a5010949ea78db9f4abb35bb78817ca8a1bf01d6c1d44ed7a0cf75a22e19d4.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:21:36+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:44+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:44+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:44+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x9fbabfc060aa445e8ee12f710ca7d4dcf328cd54e69c0aa0e36cc655b3fea35a"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:51+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [],
+      "status": "executed_with_errors"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:21:51+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6",
+      "simulation_hash": "0x9fbabfc060aa445e8ee12f710ca7d4dcf328cd54e69c0aa0e36cc655b3fea35a",
+      "execution_status": "executed_with_errors",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6.json",
+        "artifacts/filecoin/0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6.json",
+        "artifacts/slice/0xf04cb3e03970e4e24b468cc1d589977af723a494a0f7b1905686f613ee8668d6.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "error",
+        "Venice": "error",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "error",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:21:51+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:24:13+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:24:13+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:24:13+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xebdafdc5f16afe68982da0b6c773be38ef00088656dc2764d647d169f69647ee"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:24:57+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [],
+      "status": "executed"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:24:57+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2",
+      "simulation_hash": "0xebdafdc5f16afe68982da0b6c773be38ef00088656dc2764d647d169f69647ee",
+      "execution_status": "executed",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2.json",
+        "artifacts/filecoin/0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2.json",
+        "artifacts/slice/0xb6390dbeed4ca2b86575ac6af8b7b343b17ccd3ed78a2c7a1807c0ad04e208a2.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "executed",
+        "Venice": "executed",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credits",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:24:57+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:26:13+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:26:13+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:26:13+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc757938ddc1c428417e3070cb709002b8e603c5edd2c148bc9e6eb9f3df2ef8b"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:26:14+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:26:14+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86",
+      "simulation_hash": "0xc757938ddc1c428417e3070cb709002b8e603c5edd2c148bc9e6eb9f3df2ef8b",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86.json",
+        "artifacts/filecoin/0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86.json",
+        "artifacts/slice/0xf7e7e4581750f81109ecd994040520dcfc3af408dc252bb32e332a7b5c053b86.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:26:14+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:27:51+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:27:51+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:27:51+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc42eac3b37dd61d2772753d9b4fe0c869c18157b87669f84d136233df61e5aef"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:28:26+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [
+        "blockHash            0x1911c9d12dbba0d92065f8ca619813b9696999f33e0c2e678d2e90bb159b486c\nblockNumber          4\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    688049064\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0xb7844d088c4f5ec5b71ebfec38484dff5f8dc3b71e7722c3b5ef42de67fd232c\",\"0x7a9b46012cd6f419d7db113d9f4db32ab3203527d43973b4475c6578580d8435\"],\"data\":\"0x\",\"blockHash\":\"0x1911c9d12dbba0d92065f8ca619813b9696999f33e0c2e678d2e90bb159b486c\",\"blockNumber\":\"0x4\",\"blockTimestamp\":\"0x69bb5138\",\"transactionHash\":\"0xba98c79225bf6a0240b2a78dcb1782ebe839bf98201052e9b06305b6493d44dc\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000800000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000008000000002000000000000000000000000000000000000000000000000000000004000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000080000000000000000004010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0xba98c79225bf6a0240b2a78dcb1782ebe839bf98201052e9b06305b6493d44dc\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x0bf4e220f799cb3ea45b01b9330659feab4d62c810ab94fac12ce7a49325a24d\nblockNumber          5\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    602333306\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0xe36c5c7bd313f59dbf05d1b6c5569ce02ce3fdd2e173713a4ae005bc937d3576\",\"0x002cf290a8fdf9406c51f13fc1c3e33f7ff83ea881928330ba6ff68d6acf7f7b\"],\"data\":\"0x\",\"blockHash\":\"0x0bf4e220f799cb3ea45b01b9330659feab4d62c810ab94fac12ce7a49325a24d\",\"blockNumber\":\"0x5\",\"blockTimestamp\":\"0x69bb5138\",\"transactionHash\":\"0x4302a8b07cc51e6a9065efdb06be0c33fba79a164cdf16c32398fc240bfd3f36\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000100000000000000000000000000010000000008000000002000000000000000000000000000000000000000000000000000000004000000001000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000008000000000000000000000000000000000000000000000000000010001000\nroot                 \nstatus               1 (success)\ntransactionHash      0x4302a8b07cc51e6a9065efdb06be0c33fba79a164cdf16c32398fc240bfd3f36\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xf5bf2be4bfa8efbc4230f54cf0e15f43121bff0149578ba1081d8735a912928e\nblockNumber          6\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    527295783\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x428b12dabbf5155f6864a5addd4063e4b8ca4baca561cb43ba4a4e29115d5eeb\",\"0x465a639187db6c583abc36da3e7ac15d0027c96208ca3045f55e77787d227b08\"],\"data\":\"0x\",\"blockHash\":\"0xf5bf2be4bfa8efbc4230f54cf0e15f43121bff0149578ba1081d8735a912928e\",\"blockNumber\":\"0x6\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x42117bf6b9bd6e11df3e16a95c385dd5565c2534281f4a3c8502b6053ea1ace5\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080008000000002000000000000000000000000000000000000000000000000000000004000000000000000000000000000000004000000000000000000000000000800000000000000000000000000000000000000008000000000000000001000000000000000000000000000004000010080000\nroot                 \nstatus               1 (success)\ntransactionHash      0x42117bf6b9bd6e11df3e16a95c385dd5565c2534281f4a3c8502b6053ea1ace5\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x1515c8e33a210ebfb7c6501cefcc03cfda05e85c358c793b517f186d93ee7a40\nblockNumber          7\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    461606290\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x565963f85ef00b11eb34db154470ebbb4e793ea26ecac72bfa18f9ffc304875e\",\"0xe2eee10e4fc323ee50bbd744725e185a835bc97cf1408ec1ee1e8cb3bf81dbc2\"],\"data\":\"0x\",\"blockHash\":\"0x1515c8e33a210ebfb7c6501cefcc03cfda05e85c358c793b517f186d93ee7a40\",\"blockNumber\":\"0x7\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x4f01ee6c9c2428fd1c024a45ebc8f3d87be3f2e3487426f19543f7478effc3a7\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000100000000000000000000000200000000000000000000000000000000000000040000080000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000008000000002000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x4f01ee6c9c2428fd1c024a45ebc8f3d87be3f2e3487426f19543f7478effc3a7\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x91fca89b83ae4a1f300a8467fa2b94f68838dbcf67230349160f282e267d58f4\nblockNumber          8\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    404100314\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x55d6b8cf5f0eafc6a30edd7b885a3187eb020ecaf7b62f49bb46e56a16a2643c\",\"0x5e5a9e5e9d7cb8202afc54d81bb9bebf38030720d912d6d48f146c7a387c4ce2\"],\"data\":\"0x\",\"blockHash\":\"0x91fca89b83ae4a1f300a8467fa2b94f68838dbcf67230349160f282e267d58f4\",\"blockNumber\":\"0x8\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x40fca2862c47400a1c485f0908c0c22c7d077eb88619b6819e44189c67676c56\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000400000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000008000004002000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000008000000000000000000000000000000000000000000000000000012000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x40fca2862c47400a1c485f0908c0c22c7d077eb88619b6819e44189c67676c56\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xc458f7c48dc375c62ef318508454a8853719719d66502bc374a84b4ea3179781\nblockNumber          9\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    353758316\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x470e95f1224e5046954e3fe7f9c183b19d38b7b803c12a7e9137a6a88cccd37d\",\"0x0661573b18134c5f6020bc34397cb1872f57880bebcfca8dcc5fe537365ae8cb\"],\"data\":\"0x\",\"blockHash\":\"0xc458f7c48dc375c62ef318508454a8853719719d66502bc374a84b4ea3179781\",\"blockNumber\":\"0x9\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x11f7bb8aa9a862577b0f58c50a2e00cc2f7024944bd2df8c6d2baa65f6f84730\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000008000000012000000000000000000000000000100000000000000000000000000004000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000008000000000000000000000000000000000040000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x11f7bb8aa9a862577b0f58c50a2e00cc2f7024944bd2df8c6d2baa65f6f84730\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xf58ab0c77f6fb37e3cdc1951ff07c7c11f232d639980b943f87551505ac89d4b\nblockNumber          10\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    309687822\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0xb7bdedb3e7a91dec0cc461d38dfa901b9247e90bc0cd190a0bd0ae4540d99303\",\"0x18dc95ce6373c2c83f9ad65a5cdfc76a438ab2e249a2ec31825fca47106fad33\"],\"data\":\"0x\",\"blockHash\":\"0xf58ab0c77f6fb37e3cdc1951ff07c7c11f232d639980b943f87551505ac89d4b\",\"blockNumber\":\"0xa\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0xe79e3148884eccdbdb07a2c54a042b7b855d0ed489942ba8f57e43ebc2f511b1\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000008000000042000000000000000000000000000000000000000000002100000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000080000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0xe79e3148884eccdbdb07a2c54a042b7b855d0ed489942ba8f57e43ebc2f511b1\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xbe5e61f75264e225ef053dfce71dc0cbe6f91ce7adc87b6643bb8563655d801c\nblockNumber          11\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    271107541\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x7f34bf355d4af592784401860666b233ae1e290a5c004cbda7628dc1b6ef61af\",\"0x8dfbbbecfd26d203c35c198fde6851c1b55372af3dc83b2c6c47cf4f8593c88c\"],\"data\":\"0x\",\"blockHash\":\"0xbe5e61f75264e225ef053dfce71dc0cbe6f91ce7adc87b6643bb8563655d801c\",\"blockNumber\":\"0xb\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x49cc85c2e0a9c5aa648107108027eadd42e11fdb23d59f7de24657c37163cee5\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000020000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000008002000002000000000000000000000000000000000000000000000000000000004100000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010040000\nroot                 \nstatus               1 (success)\ntransactionHash      0x49cc85c2e0a9c5aa648107108027eadd42e11fdb23d59f7de24657c37163cee5\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xd2c8f9c18e929d3ec4f675239d7c4bbf1d39a0ed5f412861ae17841cc82af2d9\nblockNumber          12\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    237333486\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x61c8aa658effe5b0dacba6f83448e8295b921eb1a7cea91f0585a853c6cb4c9a\",\"0xdc75e8648e16fc12f1e2978a6d3de193c6ebf9f9bbc49a981d8dd5e74cede845\"],\"data\":\"0x\",\"blockHash\":\"0xd2c8f9c18e929d3ec4f675239d7c4bbf1d39a0ed5f412861ae17841cc82af2d9\",\"blockNumber\":\"0xc\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x5a9c0754c3fab69f42307224996b1f6ae0df44fe042515af0ff4154d21845f49\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000400000000000000000000008000000002000000000000000000010000000000000000000000000000000000004000000000000000000000000000002000000000000000000000000000000000000000000000000000000800000000000000008010000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x5a9c0754c3fab69f42307224996b1f6ae0df44fe042515af0ff4154d21845f49\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xb0949a2de554b56017ab1333b3c54db6c07a1bd67ac962924d98ff59f49698f6\nblockNumber          13\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    207766962\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x6531a05cec4ca0a96589f36a7f542d879f9ee916c0e6ed34917575de60c47eab\",\"0xd5726c6f7b2ccd039de87e9a25d25656c9df4f1aa283c1808a9754924d355569\"],\"data\":\"0x\",\"blockHash\":\"0xb0949a2de554b56017ab1333b3c54db6c07a1bd67ac962924d98ff59f49698f6\",\"blockNumber\":\"0xd\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x78a52374b959f3587bc4ca4e24a424e55d3957302a2bddf1677bccd041bffbb8\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000008000000000000200000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000010002000000000000000000020000000000000000000000020000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x78a52374b959f3587bc4ca4e24a424e55d3957302a2bddf1677bccd041bffbb8\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x2583bef9374fedb2e0d904976e13591b0c1c8be81e1a332f60dc09c093cb2a49\nblockNumber          14\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    181883775\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x7b56bc11acc618217b8cef0449f81bdf8a4a2ba8a095967e3e6910037d8e0061\",\"0x563ec2a2a31615e9eee51b8238275cf1cf4002e954178d0614a920448aff3940\"],\"data\":\"0x\",\"blockHash\":\"0x2583bef9374fedb2e0d904976e13591b0c1c8be81e1a332f60dc09c093cb2a49\",\"blockNumber\":\"0xe\",\"blockTimestamp\":\"0x69bb513a\",\"transactionHash\":\"0x13890ad00acecbb5eed27854660a8ca5602ee14bbe25f208639475b87aea9d8a\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000002000000040000000000100000000000000000000000080000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x13890ad00acecbb5eed27854660a8ca5602ee14bbe25f208639475b87aea9d8a\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xdb8b68f29c2b5824961442077c14b335a829071a925013cc5a3a5b88d6d64eda\nblockNumber          15\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    159225045\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x5291080c7675d07969214a2563ac15f37687fb5dd730e0e40453409ba999994d\",\"0x4038d7dfe887a610b01c49ffcfd55c614257d739cb3eab83122ad6124e54d465\"],\"data\":\"0x\",\"blockHash\":\"0xdb8b68f29c2b5824961442077c14b335a829071a925013cc5a3a5b88d6d64eda\",\"blockNumber\":\"0xf\",\"blockTimestamp\":\"0x69bb513a\",\"transactionHash\":\"0x2ba06efda00b902e358c8528f0a66486627d6683c779b66f184344272d901a86\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000810000000001000000000000000000000000000000000000000000000000000000000000008000000002000000000000000000000000000100000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x2ba06efda00b902e358c8528f0a66486627d6683c779b66f184344272d901a86\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x3aa4a47a311888e27dd5b52043602837f7785834d2954909d54573f33cbb7fe9\nblockNumber          16\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    139389112\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x91bde2ed89d07578434b705fb825c55396a1cdb7928e16f8dfa5cce2c3875a3d\",\"0x98215e274b494a14ee21860c365b330ce428f138d0849962e5bd9c0bbf40a006\"],\"data\":\"0x\",\"blockHash\":\"0x3aa4a47a311888e27dd5b52043602837f7785834d2954909d54573f33cbb7fe9\",\"blockNumber\":\"0x10\",\"blockTimestamp\":\"0x69bb513a\",\"transactionHash\":\"0x563e7ee2ef039c8e862ced2ac64a2ba9dd7c1ebe5b11d0b40fbca85cce2af999\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000001000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000010000000000000000000000000000048000000002000000000000000000400000000000000000000000000000000000004000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x563e7ee2ef039c8e862ced2ac64a2ba9dd7c1ebe5b11d0b40fbca85cce2af999\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7"
+      ],
+      "status": "executed"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:28:26+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b",
+      "simulation_hash": "0xc42eac3b37dd61d2772753d9b4fe0c869c18157b87669f84d136233df61e5aef",
+      "execution_status": "executed",
+      "tx_ids": [
+        "blockHash            0x1911c9d12dbba0d92065f8ca619813b9696999f33e0c2e678d2e90bb159b486c\nblockNumber          4\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    688049064\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0xb7844d088c4f5ec5b71ebfec38484dff5f8dc3b71e7722c3b5ef42de67fd232c\",\"0x7a9b46012cd6f419d7db113d9f4db32ab3203527d43973b4475c6578580d8435\"],\"data\":\"0x\",\"blockHash\":\"0x1911c9d12dbba0d92065f8ca619813b9696999f33e0c2e678d2e90bb159b486c\",\"blockNumber\":\"0x4\",\"blockTimestamp\":\"0x69bb5138\",\"transactionHash\":\"0xba98c79225bf6a0240b2a78dcb1782ebe839bf98201052e9b06305b6493d44dc\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000800000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000008000000002000000000000000000000000000000000000000000000000000000004000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000080000000000000000004010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0xba98c79225bf6a0240b2a78dcb1782ebe839bf98201052e9b06305b6493d44dc\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x0bf4e220f799cb3ea45b01b9330659feab4d62c810ab94fac12ce7a49325a24d\nblockNumber          5\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    602333306\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0xe36c5c7bd313f59dbf05d1b6c5569ce02ce3fdd2e173713a4ae005bc937d3576\",\"0x002cf290a8fdf9406c51f13fc1c3e33f7ff83ea881928330ba6ff68d6acf7f7b\"],\"data\":\"0x\",\"blockHash\":\"0x0bf4e220f799cb3ea45b01b9330659feab4d62c810ab94fac12ce7a49325a24d\",\"blockNumber\":\"0x5\",\"blockTimestamp\":\"0x69bb5138\",\"transactionHash\":\"0x4302a8b07cc51e6a9065efdb06be0c33fba79a164cdf16c32398fc240bfd3f36\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000100000000000000000000000000010000000008000000002000000000000000000000000000000000000000000000000000000004000000001000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000008000000000000000000000000000000000000000000000000000010001000\nroot                 \nstatus               1 (success)\ntransactionHash      0x4302a8b07cc51e6a9065efdb06be0c33fba79a164cdf16c32398fc240bfd3f36\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xf5bf2be4bfa8efbc4230f54cf0e15f43121bff0149578ba1081d8735a912928e\nblockNumber          6\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    527295783\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x428b12dabbf5155f6864a5addd4063e4b8ca4baca561cb43ba4a4e29115d5eeb\",\"0x465a639187db6c583abc36da3e7ac15d0027c96208ca3045f55e77787d227b08\"],\"data\":\"0x\",\"blockHash\":\"0xf5bf2be4bfa8efbc4230f54cf0e15f43121bff0149578ba1081d8735a912928e\",\"blockNumber\":\"0x6\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x42117bf6b9bd6e11df3e16a95c385dd5565c2534281f4a3c8502b6053ea1ace5\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080008000000002000000000000000000000000000000000000000000000000000000004000000000000000000000000000000004000000000000000000000000000800000000000000000000000000000000000000008000000000000000001000000000000000000000000000004000010080000\nroot                 \nstatus               1 (success)\ntransactionHash      0x42117bf6b9bd6e11df3e16a95c385dd5565c2534281f4a3c8502b6053ea1ace5\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x1515c8e33a210ebfb7c6501cefcc03cfda05e85c358c793b517f186d93ee7a40\nblockNumber          7\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    461606290\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x565963f85ef00b11eb34db154470ebbb4e793ea26ecac72bfa18f9ffc304875e\",\"0xe2eee10e4fc323ee50bbd744725e185a835bc97cf1408ec1ee1e8cb3bf81dbc2\"],\"data\":\"0x\",\"blockHash\":\"0x1515c8e33a210ebfb7c6501cefcc03cfda05e85c358c793b517f186d93ee7a40\",\"blockNumber\":\"0x7\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x4f01ee6c9c2428fd1c024a45ebc8f3d87be3f2e3487426f19543f7478effc3a7\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000100000000000000000000000200000000000000000000000000000000000000040000080000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000008000000002000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x4f01ee6c9c2428fd1c024a45ebc8f3d87be3f2e3487426f19543f7478effc3a7\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x91fca89b83ae4a1f300a8467fa2b94f68838dbcf67230349160f282e267d58f4\nblockNumber          8\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    404100314\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x55d6b8cf5f0eafc6a30edd7b885a3187eb020ecaf7b62f49bb46e56a16a2643c\",\"0x5e5a9e5e9d7cb8202afc54d81bb9bebf38030720d912d6d48f146c7a387c4ce2\"],\"data\":\"0x\",\"blockHash\":\"0x91fca89b83ae4a1f300a8467fa2b94f68838dbcf67230349160f282e267d58f4\",\"blockNumber\":\"0x8\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x40fca2862c47400a1c485f0908c0c22c7d077eb88619b6819e44189c67676c56\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000400000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000008000004002000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000008000000000000000000000000000000000000000000000000000012000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x40fca2862c47400a1c485f0908c0c22c7d077eb88619b6819e44189c67676c56\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xc458f7c48dc375c62ef318508454a8853719719d66502bc374a84b4ea3179781\nblockNumber          9\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    353758316\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x470e95f1224e5046954e3fe7f9c183b19d38b7b803c12a7e9137a6a88cccd37d\",\"0x0661573b18134c5f6020bc34397cb1872f57880bebcfca8dcc5fe537365ae8cb\"],\"data\":\"0x\",\"blockHash\":\"0xc458f7c48dc375c62ef318508454a8853719719d66502bc374a84b4ea3179781\",\"blockNumber\":\"0x9\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x11f7bb8aa9a862577b0f58c50a2e00cc2f7024944bd2df8c6d2baa65f6f84730\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000008000000012000000000000000000000000000100000000000000000000000000004000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000008000000000000000000000000000000000040000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x11f7bb8aa9a862577b0f58c50a2e00cc2f7024944bd2df8c6d2baa65f6f84730\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xf58ab0c77f6fb37e3cdc1951ff07c7c11f232d639980b943f87551505ac89d4b\nblockNumber          10\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    309687822\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0xb7bdedb3e7a91dec0cc461d38dfa901b9247e90bc0cd190a0bd0ae4540d99303\",\"0x18dc95ce6373c2c83f9ad65a5cdfc76a438ab2e249a2ec31825fca47106fad33\"],\"data\":\"0x\",\"blockHash\":\"0xf58ab0c77f6fb37e3cdc1951ff07c7c11f232d639980b943f87551505ac89d4b\",\"blockNumber\":\"0xa\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0xe79e3148884eccdbdb07a2c54a042b7b855d0ed489942ba8f57e43ebc2f511b1\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000008000000042000000000000000000000000000000000000000000002100000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000080000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0xe79e3148884eccdbdb07a2c54a042b7b855d0ed489942ba8f57e43ebc2f511b1\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xbe5e61f75264e225ef053dfce71dc0cbe6f91ce7adc87b6643bb8563655d801c\nblockNumber          11\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    271107541\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x7f34bf355d4af592784401860666b233ae1e290a5c004cbda7628dc1b6ef61af\",\"0x8dfbbbecfd26d203c35c198fde6851c1b55372af3dc83b2c6c47cf4f8593c88c\"],\"data\":\"0x\",\"blockHash\":\"0xbe5e61f75264e225ef053dfce71dc0cbe6f91ce7adc87b6643bb8563655d801c\",\"blockNumber\":\"0xb\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x49cc85c2e0a9c5aa648107108027eadd42e11fdb23d59f7de24657c37163cee5\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000020000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000008002000002000000000000000000000000000000000000000000000000000000004100000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010040000\nroot                 \nstatus               1 (success)\ntransactionHash      0x49cc85c2e0a9c5aa648107108027eadd42e11fdb23d59f7de24657c37163cee5\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xd2c8f9c18e929d3ec4f675239d7c4bbf1d39a0ed5f412861ae17841cc82af2d9\nblockNumber          12\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    237333486\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x61c8aa658effe5b0dacba6f83448e8295b921eb1a7cea91f0585a853c6cb4c9a\",\"0xdc75e8648e16fc12f1e2978a6d3de193c6ebf9f9bbc49a981d8dd5e74cede845\"],\"data\":\"0x\",\"blockHash\":\"0xd2c8f9c18e929d3ec4f675239d7c4bbf1d39a0ed5f412861ae17841cc82af2d9\",\"blockNumber\":\"0xc\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x5a9c0754c3fab69f42307224996b1f6ae0df44fe042515af0ff4154d21845f49\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000400000000000000000000008000000002000000000000000000010000000000000000000000000000000000004000000000000000000000000000002000000000000000000000000000000000000000000000000000000800000000000000008010000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x5a9c0754c3fab69f42307224996b1f6ae0df44fe042515af0ff4154d21845f49\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xb0949a2de554b56017ab1333b3c54db6c07a1bd67ac962924d98ff59f49698f6\nblockNumber          13\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    207766962\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x6531a05cec4ca0a96589f36a7f542d879f9ee916c0e6ed34917575de60c47eab\",\"0xd5726c6f7b2ccd039de87e9a25d25656c9df4f1aa283c1808a9754924d355569\"],\"data\":\"0x\",\"blockHash\":\"0xb0949a2de554b56017ab1333b3c54db6c07a1bd67ac962924d98ff59f49698f6\",\"blockNumber\":\"0xd\",\"blockTimestamp\":\"0x69bb5139\",\"transactionHash\":\"0x78a52374b959f3587bc4ca4e24a424e55d3957302a2bddf1677bccd041bffbb8\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000008000000000000200000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000010002000000000000000000020000000000000000000000020000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x78a52374b959f3587bc4ca4e24a424e55d3957302a2bddf1677bccd041bffbb8\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x2583bef9374fedb2e0d904976e13591b0c1c8be81e1a332f60dc09c093cb2a49\nblockNumber          14\ncontractAddress      \ncumulativeGasUsed    50631\neffectiveGasPrice    181883775\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50631\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x7b56bc11acc618217b8cef0449f81bdf8a4a2ba8a095967e3e6910037d8e0061\",\"0x563ec2a2a31615e9eee51b8238275cf1cf4002e954178d0614a920448aff3940\"],\"data\":\"0x\",\"blockHash\":\"0x2583bef9374fedb2e0d904976e13591b0c1c8be81e1a332f60dc09c093cb2a49\",\"blockNumber\":\"0xe\",\"blockTimestamp\":\"0x69bb513a\",\"transactionHash\":\"0x13890ad00acecbb5eed27854660a8ca5602ee14bbe25f208639475b87aea9d8a\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000002000000040000000000100000000000000000000000080000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x13890ad00acecbb5eed27854660a8ca5602ee14bbe25f208639475b87aea9d8a\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0xdb8b68f29c2b5824961442077c14b335a829071a925013cc5a3a5b88d6d64eda\nblockNumber          15\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    159225045\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x5291080c7675d07969214a2563ac15f37687fb5dd730e0e40453409ba999994d\",\"0x4038d7dfe887a610b01c49ffcfd55c614257d739cb3eab83122ad6124e54d465\"],\"data\":\"0x\",\"blockHash\":\"0xdb8b68f29c2b5824961442077c14b335a829071a925013cc5a3a5b88d6d64eda\",\"blockNumber\":\"0xf\",\"blockTimestamp\":\"0x69bb513a\",\"transactionHash\":\"0x2ba06efda00b902e358c8528f0a66486627d6683c779b66f184344272d901a86\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000810000000001000000000000000000000000000000000000000000000000000000000000008000000002000000000000000000000000000100000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x2ba06efda00b902e358c8528f0a66486627d6683c779b66f184344272d901a86\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7",
+        "blockHash            0x3aa4a47a311888e27dd5b52043602837f7785834d2954909d54573f33cbb7fe9\nblockNumber          16\ncontractAddress      \ncumulativeGasUsed    50643\neffectiveGasPrice    139389112\nfrom                 0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658\ngasUsed              50643\nlogs                 [{\"address\":\"0xe8b9aaa1856283a47234dbedb4cc236b20ada2d7\",\"topics\":[\"0xf2e83be6f93b8b9ced3fd2fc19233a61034fe7998737478ac7dd508707ea0f56\",\"0x91bde2ed89d07578434b705fb825c55396a1cdb7928e16f8dfa5cce2c3875a3d\",\"0x98215e274b494a14ee21860c365b330ce428f138d0849962e5bd9c0bbf40a006\"],\"data\":\"0x\",\"blockHash\":\"0x3aa4a47a311888e27dd5b52043602837f7785834d2954909d54573f33cbb7fe9\",\"blockNumber\":\"0x10\",\"blockTimestamp\":\"0x69bb513a\",\"transactionHash\":\"0x563e7ee2ef039c8e862ced2ac64a2ba9dd7c1ebe5b11d0b40fbca85cce2af999\",\"transactionIndex\":\"0x0\",\"logIndex\":\"0x0\",\"removed\":false}]\nlogsBloom            0x00000000000000000000000001000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000010000000000000000000000000000048000000002000000000000000000400000000000000000000000000000000000004000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000010000000\nroot                 \nstatus               1 (success)\ntransactionHash      0x563e7ee2ef039c8e862ced2ac64a2ba9dd7c1ebe5b11d0b40fbca85cce2af999\ntransactionIndex     0\ntype                 2\nblobGasPrice         1\nblobGasUsed          \nto                   0xE8B9aaa1856283A47234dBeDb4Cc236b20ADA2d7"
+      ],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b.json",
+        "artifacts/filecoin/0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b.json",
+        "artifacts/slice/0x91c7d035ba1bb8f1f2398c209794460e75eb20df4c121fa03c1446f297f4449b.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "executed",
+        "Venice": "executed",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credits",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:28:26+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:28:53+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:28:53+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:28:53+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x8b242b7215196f58c465c1bdf2f8192a0fb2582a523885d89f79b54a133d7903"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:29:30+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [
+        "0x6a412525693a91c446e66e3649e4f49e21ec689c601542e7b64e2f2b0e1919a1",
+        "0xc2b262ca67c030b11b448edfb3491ab4ac49546792aee65d9508a2b2406e33a8",
+        "0x6df73106c7ae35dcf9b479752f13d47509538bfdf44270642c214fe8962e0d86",
+        "0xc5c92bb25584323d9bb321d0e715bc84eaa1373556b637bdd95638b1ea4ccfd5",
+        "0x682a6962a2bc21fa1ccb7318e2a4c1d277aa9031a7c6fc2cad126211471d4277",
+        "0x8bde2aa88624e095bed54b12eff3222c67acdb8596df96675f05170f6b22615e",
+        "0x4b45ffc53b2103055576d72174de4a2492908f18f4722ee598c44e7e4a48e4ad",
+        "0xc21cc9032403cd2388ecbe61be9557a15a61bbff6aa28baf4d66aaffc05452b3",
+        "0xe286a09984d6ae4711681860a9f582821ffde09e9b574dbacd04cb0ff27f9d9e",
+        "0xa67bc2750c8b1b3d0554a49ac140bf940e15f9b3c262bc6d23d2ea13394115f0",
+        "0xb65a55b50143b4da2f7ba582c89eabdf07f1181cadbe89b1e4022015839f72ce",
+        "0x9d7b7c53d773b3d978fa65a71af5dd8b5f7e07c7a6a06fd4fd14fffadd14fe42",
+        "0xd65fa8792df4dc0d8de70f5783ee343b669c3f8978ef51779d0295696f9fc00d"
+      ],
+      "status": "executed"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:29:30+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc",
+      "simulation_hash": "0x8b242b7215196f58c465c1bdf2f8192a0fb2582a523885d89f79b54a133d7903",
+      "execution_status": "executed",
+      "tx_ids": [
+        "0x6a412525693a91c446e66e3649e4f49e21ec689c601542e7b64e2f2b0e1919a1",
+        "0xc2b262ca67c030b11b448edfb3491ab4ac49546792aee65d9508a2b2406e33a8",
+        "0x6df73106c7ae35dcf9b479752f13d47509538bfdf44270642c214fe8962e0d86",
+        "0xc5c92bb25584323d9bb321d0e715bc84eaa1373556b637bdd95638b1ea4ccfd5",
+        "0x682a6962a2bc21fa1ccb7318e2a4c1d277aa9031a7c6fc2cad126211471d4277",
+        "0x8bde2aa88624e095bed54b12eff3222c67acdb8596df96675f05170f6b22615e",
+        "0x4b45ffc53b2103055576d72174de4a2492908f18f4722ee598c44e7e4a48e4ad",
+        "0xc21cc9032403cd2388ecbe61be9557a15a61bbff6aa28baf4d66aaffc05452b3",
+        "0xe286a09984d6ae4711681860a9f582821ffde09e9b574dbacd04cb0ff27f9d9e",
+        "0xa67bc2750c8b1b3d0554a49ac140bf940e15f9b3c262bc6d23d2ea13394115f0",
+        "0xb65a55b50143b4da2f7ba582c89eabdf07f1181cadbe89b1e4022015839f72ce",
+        "0x9d7b7c53d773b3d978fa65a71af5dd8b5f7e07c7a6a06fd4fd14fffadd14fe42",
+        "0xd65fa8792df4dc0d8de70f5783ee343b669c3f8978ef51779d0295696f9fc00d"
+      ],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc.json",
+        "artifacts/filecoin/0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc.json",
+        "artifacts/slice/0x71cfbe45d8ba4498a3e2bc235242b290ecb5c8de0a8045852343e8d60e5c96bc.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "executed",
+        "Venice": "executed",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credits",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:29:30+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:43:25+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:43:25+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:43:25+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xc970d4aa5da4a3eecdb36362d2927d4d34a5e026dc4025f132d77c22f1fc3b98"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:43:25+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:43:25+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f",
+      "simulation_hash": "0xc970d4aa5da4a3eecdb36362d2927d4d34a5e026dc4025f132d77c22f1fc3b98",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f.json",
+        "artifacts/filecoin/0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f.json",
+        "artifacts/slice/0x0b2f46effd0c8c2795b695d119aec63e6fd54a1a4644209e7dfee96f6bb9fc0f.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:43:25+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:03+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:03+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:03+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x9cf1ffddaea639ca8aa2a06350a2d23a60e9d1cb41e119cc3a92b172bfbe6b86"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:03+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:03+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a",
+      "simulation_hash": "0x9cf1ffddaea639ca8aa2a06350a2d23a60e9d1cb41e119cc3a92b172bfbe6b86",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a.json",
+        "artifacts/filecoin/0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a.json",
+        "artifacts/slice/0xcbb5dfac9f39dcdf775fd651f92dbfd404514834aca4414cdd48bc801604ad6a.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:50:03+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:59+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:59+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:50:59+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x8999c56a8b2c9edc9fa86bc2b02b91941da1ec47adae88d3a10919d8b2c98389"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:51:00+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:51:00+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f",
+      "simulation_hash": "0x8999c56a8b2c9edc9fa86bc2b02b91941da1ec47adae88d3a10919d8b2c98389",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f.json",
+        "artifacts/filecoin/0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f.json",
+        "artifacts/slice/0x410ce2294a3af46bf7a9a87e6a67b87f23ab31e5c76525e86f4037e7b46b973f.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:51:00+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:53:34+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:53:34+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:53:34+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x46a2b66fa13099c6ec321e657f59ef8615b7c8f105ca177b5d8126382958d5f1"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:56:50+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [
+        "0xcd4fa2965942e41887dd4bd6c0b5bbbeb6b255e02802535416a3ceaf1db73fe1",
+        "0x1db2a9f5c2b430ea133f29d364b8c62342272491b06b76012b563e6e00b6a2b3",
+        "0x454f457f8cefad87013d41f408a64c5dbc0aa69e48db64bfc8671065c3772018",
+        "0x3283fe98140cefc886a57d5dab63b21f2ae67c4661bc29978580ba1148667e4b",
+        "0x824943d66e6c90cfdc8893ae60dd525641993fddb52cc83c7c21a5daca3793bb",
+        "0x4b8c15834ad3361027f5668abe8516e35b7b03913bb806fbae3a4796db93cc0c",
+        "0x8f01e7336c04872eb6edc00f780e9c74b165e20125b1f325979cdf0c0b280a11",
+        "0xad6efa42842c11b6d98b9322083d670d8f59cd91a50f429e40d0c1ce4ef4f746",
+        "0x8e1e5eae36101a06c8bacf256e0d6600755667937ef996b3cfe37aed8b8868ad",
+        "0x2f7998721a7dec7eb8282a8cbf1c1c1a2c36389e6d1a2f65c89a19ec7ea6b580",
+        "0x134b4452600797cbbb13cd1ee04bf44dd0fc93e385c4a9ddf9b5fcaa9e6fd8b8",
+        "0xb31ae06bcadfca74c6f2b69b98be2418b0cc3478f4dc190e495b1e635d20eea6",
+        "0xbb3324dc3af18d94e8244ed7acb9782fc281dbf69c9ebf5cf9d10e4ac03a6d16"
+      ],
+      "status": "executed"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:56:50+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0",
+      "simulation_hash": "0x46a2b66fa13099c6ec321e657f59ef8615b7c8f105ca177b5d8126382958d5f1",
+      "execution_status": "executed",
+      "tx_ids": [
+        "0xcd4fa2965942e41887dd4bd6c0b5bbbeb6b255e02802535416a3ceaf1db73fe1",
+        "0x1db2a9f5c2b430ea133f29d364b8c62342272491b06b76012b563e6e00b6a2b3",
+        "0x454f457f8cefad87013d41f408a64c5dbc0aa69e48db64bfc8671065c3772018",
+        "0x3283fe98140cefc886a57d5dab63b21f2ae67c4661bc29978580ba1148667e4b",
+        "0x824943d66e6c90cfdc8893ae60dd525641993fddb52cc83c7c21a5daca3793bb",
+        "0x4b8c15834ad3361027f5668abe8516e35b7b03913bb806fbae3a4796db93cc0c",
+        "0x8f01e7336c04872eb6edc00f780e9c74b165e20125b1f325979cdf0c0b280a11",
+        "0xad6efa42842c11b6d98b9322083d670d8f59cd91a50f429e40d0c1ce4ef4f746",
+        "0x8e1e5eae36101a06c8bacf256e0d6600755667937ef996b3cfe37aed8b8868ad",
+        "0x2f7998721a7dec7eb8282a8cbf1c1c1a2c36389e6d1a2f65c89a19ec7ea6b580",
+        "0x134b4452600797cbbb13cd1ee04bf44dd0fc93e385c4a9ddf9b5fcaa9e6fd8b8",
+        "0xb31ae06bcadfca74c6f2b69b98be2418b0cc3478f4dc190e495b1e635d20eea6",
+        "0xbb3324dc3af18d94e8244ed7acb9782fc281dbf69c9ebf5cf9d10e4ac03a6d16"
+      ],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0.json",
+        "artifacts/filecoin/0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0.json",
+        "artifacts/slice/0x3d768a4bd6d49505b42aab07be2c1c10c270b518e3f4a14f5dd70dda56e8b1f0.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "executed",
+        "Venice": "executed",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_gateway_access",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:56:50+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:57:26+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:57:26+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:57:26+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x2cc2b069deea06dedad27590f2832c2ce294487f188f66bb71d748ae2ed5efef"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:57:26+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T01:57:26+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99",
+      "simulation_hash": "0x2cc2b069deea06dedad27590f2832c2ce294487f188f66bb71d748ae2ed5efef",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99.json",
+        "artifacts/filecoin/0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99.json",
+        "artifacts/slice/0x7bd8526dcbeb8041a02b29edcf43ed50e8fceff2ebd5b1d717ded7a8b51b5a99.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T01:57:26+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:00:39+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:00:39+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:00:39+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xbe26e909d886010c6215078cb41f3e0e2d492fe15722c63e8eee2615200f1331"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:04:01+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [
+        "0x15b4e99a90abd6470fbef79adb44cfb58f79a4c3d859f2863ffcf38bf42f6f40",
+        "0xf1aa938ce4401edf7f3f9d31805985c6e3d7446c7c345ade450c96cd197d0a92",
+        "0x6459a84fc0651fd71abca6e6914104bc079f2cebfe5286d7e62d3ac7efaef702",
+        "0x8e93e8830018dd0c78bd2e62a3f47fafb824ffcd89cf3b8b9328b420a1f61ca7",
+        "0xe31238f131e71601869ee7b2bd26d38ecada305412bcba5c56183c5d929e01bb",
+        "0x41508311c8baac2f035583b60142ac79f7f2760bc3ab7ab2eb085a4c83b8080f",
+        "0x6caffe0c47ccae2f8139c167cc3e062728bf861beb82e899965f4e7472c764ce",
+        "0x21304b8f792fe25f40438101eaaf57d088312aad942bf0f6b9c562b881bb3cd3",
+        "0xe833ad73bdf5249976b28356433da5ad2919207599be8758ef8d229057cfa8b9",
+        "0xa291deedc2466060837d3c9529c7ecc142dafd7d74852d421b059f9e63eb57cd",
+        "0x60d65e6a82fd831d90c1f9ed0148c9a8f005634f178cc35d1f6d019573e51c60",
+        "0x17da29bf9867d08bcabd8f3f471841b355cf8f567178ccd7e96511a803ec2d30",
+        "0x8c57e149ec184b0a4cf3c8777c261ab6bc3d3292cc1affc222ff1ceb2f00666f"
+      ],
+      "status": "executed"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:04:01+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3",
+      "simulation_hash": "0xbe26e909d886010c6215078cb41f3e0e2d492fe15722c63e8eee2615200f1331",
+      "execution_status": "executed",
+      "tx_ids": [
+        "0x15b4e99a90abd6470fbef79adb44cfb58f79a4c3d859f2863ffcf38bf42f6f40",
+        "0xf1aa938ce4401edf7f3f9d31805985c6e3d7446c7c345ade450c96cd197d0a92",
+        "0x6459a84fc0651fd71abca6e6914104bc079f2cebfe5286d7e62d3ac7efaef702",
+        "0x8e93e8830018dd0c78bd2e62a3f47fafb824ffcd89cf3b8b9328b420a1f61ca7",
+        "0xe31238f131e71601869ee7b2bd26d38ecada305412bcba5c56183c5d929e01bb",
+        "0x41508311c8baac2f035583b60142ac79f7f2760bc3ab7ab2eb085a4c83b8080f",
+        "0x6caffe0c47ccae2f8139c167cc3e062728bf861beb82e899965f4e7472c764ce",
+        "0x21304b8f792fe25f40438101eaaf57d088312aad942bf0f6b9c562b881bb3cd3",
+        "0xe833ad73bdf5249976b28356433da5ad2919207599be8758ef8d229057cfa8b9",
+        "0xa291deedc2466060837d3c9529c7ecc142dafd7d74852d421b059f9e63eb57cd",
+        "0x60d65e6a82fd831d90c1f9ed0148c9a8f005634f178cc35d1f6d019573e51c60",
+        "0x17da29bf9867d08bcabd8f3f471841b355cf8f567178ccd7e96511a803ec2d30",
+        "0x8c57e149ec184b0a4cf3c8777c261ab6bc3d3292cc1affc222ff1ceb2f00666f"
+      ],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3.json",
+        "artifacts/filecoin/0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3.json",
+        "artifacts/slice/0xbd69df21e67a8cf98dfa4e3bd02f35bb3f29bd9fcecb8db62261d0bdde17eca3.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "executed",
+        "Venice": "executed",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credits",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T02:04:01+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:05:20+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:05:20+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:05:20+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x655e185cebfc35666d066dfec18f54e26d5d70ce2ad33250008b2bfa0c3a87b9"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:05:21+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:05:21+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94",
+      "simulation_hash": "0x655e185cebfc35666d066dfec18f54e26d5d70ce2ad33250008b2bfa0c3a87b9",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94.json",
+        "artifacts/filecoin/0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94.json",
+        "artifacts/slice/0xafa82f27b7d82b46523288f70e3f54b9b5b69925919e23520260425875412c94.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T02:05:21+00:00"
+    }
   }
 ]
