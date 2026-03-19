@@ -4,7 +4,7 @@
   "license": "MIT",
   "primary_track": "Open Track",
   "project_category": "public_goods",
-  "submission_status": "sepolia_deployed_live_receipts_ready_bankr_credits_pending",
+  "submission_status": "published_all_claimed_live_integrations_working",
   "identity": {
     "erc8004_status": "registered_via_synthesis_api",
     "operator_wallet": "0xbD610Cfb6D4d880C03B97B1f0a6a55B49683a658",

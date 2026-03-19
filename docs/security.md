@@ -38,11 +38,10 @@ Operational caveat:
 
 - Uniswap quote path is live and now matches the current Trading API request shape
 - Venice chat-completions path is live and returns data with the configured API key
-- Bankr integration is implemented and now returns a structured credits blocker after gateway access was enabled
+- Bankr integration is implemented and now executes successfully with the funded gateway key
 - Octant, Filecoin, Locus, Olas, and Slice no longer depend on placeholder URLs or fake envs
 
 ## Remaining non-code work
 
-- Bankr LLM credits
-- fund any required demo wallets
-- attach final TxIDs and media links in submission assets
+- attach Loom demo link
+- optionally add Moltbook post URL

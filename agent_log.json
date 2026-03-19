@@ -1445,5 +1445,237 @@
       },
       "created_at": "2026-03-19T02:05:21+00:00"
     }
+  },
+  {
+    "timestamp": "2026-03-19T02:38:38+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:38:38+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:38:38+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xb122d4f3c099edb689c85b2c5dcced3abaf16fcd5b1dfb998677fb81c75c507d"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:41:50+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Executed live path.",
+    "details": {
+      "tx_ids": [
+        "0x2afbc262744b32181a81f4cfead41a3ff60dc98a54337a57429a0b8854e3db55",
+        "0x80cc7a2bd2b6baa2c497364f95fa9bfdeff064c673d20bec56bad306c23aec29",
+        "0xe7fe2ad950c7bae9f36033480ce1b228792fb894b1c9d1d254d6e38f86ba6150",
+        "0xe827558880dc68ef34ef1a634c27cccfab693e40d8653e5c03ff6dd6f884784f",
+        "0x0ca61ed6540365e7c93d0a3641a4544e208a6a5c9027c93d184381218abd1947",
+        "0x83e17786a14cb6718181ae4b81c65789cbab4f176e1872b63d15fd2a35e552b4",
+        "0xf22ad5c8636a76a900916d5e1f3b1000888ebbbeb3acaa935c0490db4ac4f38e",
+        "0x35b4b39484cd03d63bdd1f0ff65b9ed4452bf2e100c4a7a01ed69aaeb0449cbe",
+        "0x4865ffe674ffe04097189a75deaf1fc397643b1fe1a0c79d3f6046c0839f21a3",
+        "0x908bed0129a394602524e74c7a3c7595dc5561c1dbf5e67979f07a0371aaa300",
+        "0x0baa8b651c43b74fb69d0dc49bf059e0515915795114f50f9cfcef6810f62fe6",
+        "0xbbe7dd78a34fce2c7d31c0345a0a007a4f4ef9da36008087e66482e830942bc0",
+        "0x420158d29990e86bda5182b51a45ccf5807615cbba5367a7e39dad03b9d18109"
+      ],
+      "status": "executed"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:41:50+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed",
+      "simulation_hash": "0xb122d4f3c099edb689c85b2c5dcced3abaf16fcd5b1dfb998677fb81c75c507d",
+      "execution_status": "executed",
+      "tx_ids": [
+        "0x2afbc262744b32181a81f4cfead41a3ff60dc98a54337a57429a0b8854e3db55",
+        "0x80cc7a2bd2b6baa2c497364f95fa9bfdeff064c673d20bec56bad306c23aec29",
+        "0xe7fe2ad950c7bae9f36033480ce1b228792fb894b1c9d1d254d6e38f86ba6150",
+        "0xe827558880dc68ef34ef1a634c27cccfab693e40d8653e5c03ff6dd6f884784f",
+        "0x0ca61ed6540365e7c93d0a3641a4544e208a6a5c9027c93d184381218abd1947",
+        "0x83e17786a14cb6718181ae4b81c65789cbab4f176e1872b63d15fd2a35e552b4",
+        "0xf22ad5c8636a76a900916d5e1f3b1000888ebbbeb3acaa935c0490db4ac4f38e",
+        "0x35b4b39484cd03d63bdd1f0ff65b9ed4452bf2e100c4a7a01ed69aaeb0449cbe",
+        "0x4865ffe674ffe04097189a75deaf1fc397643b1fe1a0c79d3f6046c0839f21a3",
+        "0x908bed0129a394602524e74c7a3c7595dc5561c1dbf5e67979f07a0371aaa300",
+        "0x0baa8b651c43b74fb69d0dc49bf059e0515915795114f50f9cfcef6810f62fe6",
+        "0xbbe7dd78a34fce2c7d31c0345a0a007a4f4ef9da36008087e66482e830942bc0",
+        "0x420158d29990e86bda5182b51a45ccf5807615cbba5367a7e39dad03b9d18109"
+      ],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed.json",
+        "artifacts/filecoin/0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed.json",
+        "artifacts/slice/0xf117efcba09976782ee49ee691f5449e3d49e3e3be727fe700e3b2e57e8c47ed.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "executed",
+        "Venice": "executed",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "executed",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T02:41:50+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:43:47+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "project_signals",
+          "description": "Impact, treasury, and opportunity signals.",
+          "score": 95
+        },
+        {
+          "name": "private_inputs",
+          "description": "Sensitive ranking inputs or reviewer context.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Micro-grant or allocation execution plan.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Proofs, submission notes, and final evidence.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:43:47+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every claimed overlap target.",
+    "details": {
+      "plan_id": "0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b",
+      "action_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:43:47+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x481d0ff3d5006658c62b8f51724100d222374c0cfc5ab5c2542047d6d9bccfc2"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:43:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [],
+      "artifact_count": 10
+    }
+  },
+  {
+    "timestamp": "2026-03-19T02:43:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldGuard Autonomous Public Goods Swarm",
+      "track": "Open Track",
+      "plan_id": "0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b",
+      "simulation_hash": "0x481d0ff3d5006658c62b8f51724100d222374c0cfc5ab5c2542047d6d9bccfc2",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/octant/0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b.json",
+        "artifacts/filecoin/0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json",
+        "artifacts/locus/0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b.json",
+        "artifacts/onchain_intents/ens_ens_publish.json",
+        "artifacts/olas/0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b.json",
+        "artifacts/slice/0xfa942f69e97a1ade9192497a4703d0a0e47d9fd9a990b6f70c6bc4d179348c7b.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "configured",
+        "Venice": "configured",
+        "Octant": "published_octant_artifact",
+        "Filecoin": "prepared_filecoin_bundle",
+        "Celo": "prepared_contract_call",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Bankr Gateway": "configured",
+        "MetaMask Delegations": "prepared_contract_call",
+        "PayWithLocus": "prepared_locus_payment_intent",
+        "ENS": "prepared_contract_call",
+        "Olas": "prepared_olas_marketplace_bundle",
+        "Slice": "prepared_slice_hook_manifest"
+      },
+      "created_at": "2026-03-19T02:43:48+00:00"
+    }
   }
 ]

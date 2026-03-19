@@ -72,7 +72,6 @@ The Uniswap request now uses string chain IDs, explicit slippage, the router-ver
 
 1. `DEFAULT_ADMIN_ROLE` is still highly privileged.
 2. The current live setup reuses one wallet for admin, operator, reporter, and treasury.
-3. Bankr still depends on enough LLM Gateway credits on the active API key.
 
 ## Recommended production posture
 
