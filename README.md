@@ -1,6 +1,7 @@
 # YieldGuard Autonomous Public Goods Swarm
 
 - **Repo:** https://github.com/CrystallineButterfly/Synthesis-YieldGuard-OpenTrack
+- **Published submission:** https://synthesis.devfolio.co/projects/yieldguard-autonomous-public-goods-swarm-abb5
 - **Primary track:** Open Track
 - **Submission strategy:** one repo, many bounded overlap targets
 - **Status:** published on Synthesis, Sepolia-deployed, all claimed live integrations working
@@ -37,6 +38,22 @@ YieldGuard is a single-agent / multi-artifact submission that:
 | ENS | ENS-native publication intents using `k42.radicle.eth` |
 | Olas | 10-request hire bundle + monetized service bundle |
 | Slice Hooks | `SliceImpactHook.sol` + deploy script |
+
+## Official submitted tracks
+
+The live Synthesis API currently accepts **up to 10 tracks per project**, so the
+published submission is filed against these 10 tracks:
+
+- Synthesis Open Track
+- stETH Agent Treasury
+- Agentic Finance (Uniswap)
+- Private Agents, Trusted Actions (Venice)
+- Mechanism Design for Public Goods Evaluation (Octant)
+- Best Use Case with Agentic Storage (Filecoin)
+- Best Agent on Celo
+- Agents With Receipts — ERC-8004
+- Best Bankr LLM Gateway Use
+- Slice Hooks
 
 ## Architecture
 
@@ -103,6 +120,7 @@ forge script script/DeploySliceImpactHook.s.sol --rpc-url "$RPC_URL" --broadcast
 Everything needed for the core submission is now live:
 
 - published project on Synthesis
+- published project URL: `https://synthesis.devfolio.co/projects/yieldguard-autonomous-public-goods-swarm-abb5`
 - self-custody transfer complete
 - Sepolia contracts deployed
 - Sepolia receipts anchored
