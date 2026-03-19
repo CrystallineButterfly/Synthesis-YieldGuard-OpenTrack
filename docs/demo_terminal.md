@@ -53,7 +53,7 @@ Use this exact sequence:
 ### Shot 1 — show the published project URL
 
 ```bash
-printf '%s\n' 'https://synthesis.devfolio.co/projects/yieldguard-autonomous-public-goods-swarm-abb5'
+printf '%s\n' 'https://synthesis.devfolio.co/projects/4c86d2bae1344238a4e0b0768383cfb5'
 ```
 
 Say: "This is the published Synthesis submission."
