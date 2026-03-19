@@ -1,7 +1,7 @@
 # YieldGuard Autonomous Public Goods Swarm
 
 - **Repo:** https://github.com/CrystallineButterfly/Synthesis-YieldGuard-OpenTrack
-- **Published submission:** https://synthesis.devfolio.co/projects/yieldguard-autonomous-public-goods-swarm-abb5
+- **Published submission:** https://synthesis.devfolio.co/projects/4c86d2bae1344238a4e0b0768383cfb5
 - **Primary track:** Open Track
 - **Submission strategy:** one repo, many bounded overlap targets
 - **Status:** published on Synthesis, Sepolia-deployed, all claimed live integrations working
@@ -120,7 +120,7 @@ forge script script/DeploySliceImpactHook.s.sol --rpc-url "$RPC_URL" --broadcast
 Everything needed for the core submission is now live:
 
 - published project on Synthesis
-- published project URL: `https://synthesis.devfolio.co/projects/yieldguard-autonomous-public-goods-swarm-abb5`
+- published project URL: `https://synthesis.devfolio.co/projects/4c86d2bae1344238a4e0b0768383cfb5`
 - self-custody transfer complete
 - Sepolia contracts deployed
 - Sepolia receipts anchored
