@@ -3,7 +3,7 @@
 - **Repo:** https://github.com/CrystallineButterfly/Synthesis-YieldGuard-OpenTrack
 - **Primary track:** Open Track
 - **Submission strategy:** one repo, many bounded overlap targets
-- **Status:** Sepolia-deployed, live receipts anchored, Bankr credits pending
+- **Status:** published on Synthesis, Sepolia-deployed, all claimed live integrations working
 
 ## What this repo does
 
@@ -31,7 +31,7 @@ YieldGuard is a single-agent / multi-artifact submission that:
 | Filecoin Agentic Storage | upload-ready proof bundles under `artifacts/filecoin/` |
 | Best Agent on Celo | Celo settlement intents under `artifacts/onchain_intents/` |
 | ERC-8004 Receipts | receipt-anchoring flow in treasury runtime |
-| Bankr Gateway | real LLM gateway call path; currently awaiting credits |
+| Bankr Gateway | real LLM gateway call path; live execution verified |
 | MetaMask Delegations | delegation-scoped onchain intents |
 | PayWithLocus | wallet-signed bounded payment intents |
 | ENS | ENS-native publication intents using `k42.radicle.eth` |
@@ -98,16 +98,20 @@ forge script script/Deploy.s.sol --rpc-url "$RPC_URL" --broadcast
 forge script script/DeploySliceImpactHook.s.sol --rpc-url "$RPC_URL" --broadcast
 ```
 
-## Current live blockers
+## Current status
 
-Only one external blocker remains for full live-path completion:
+Everything needed for the core submission is now live:
 
-- **Bankr LLM credits**: https://bankr.bot/llm?tab=credits
+- published project on Synthesis
+- self-custody transfer complete
+- Sepolia contracts deployed
+- Sepolia receipts anchored
+- Uniswap, Venice, and Bankr live integrations verified
 
-Everything else needed for this repo is now either:
+Optional polish still worth adding:
 
-- already wired locally, or
-- implemented as repo-hosted / wallet-signed / onchain deployment flow.
+- Loom demo video URL
+- Moltbook post URL
 
 ## Demo format
 
