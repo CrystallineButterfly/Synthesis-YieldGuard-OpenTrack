@@ -74,4 +74,10 @@ contract YieldGuardTreasuryTest is Test {
             keccak256("call")
         );
     }
+
+    function testSetTargetApprovalRejectsZeroAddress() public {
+        vm.prank(admin);
+        vm.expectRevert(abi.encodeWithSignature("ZeroAddressNotAllowed()"));
+        controller.setTargetApproval(address(0), true);
+    }
 }
